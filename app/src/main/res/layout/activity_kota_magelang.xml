@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDAEF"
+    android:orientation="vertical"
+    tools:context=".KotaMagelang">
+
+    <TextView
+        android:layout_width="413dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="Kota Magelang"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:layout_width="413dp"
+        android:layout_height="300dp"
+        android:src="@drawable/magelang" />
+
+    <TextView
+        android:layout_width="413dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="10dp"
+        android:text="    Candi Borobudur"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:text="Kota Magelang di Jawa Tengah juga memilki Ikon Daerah Paling Terkenal Di Indonesia yang bahkan bangunan ini telah menjadi salah satu 7 Kejaiban Di Dunia. Bangunan tersebut adalah Candi Borobudur, Candi Budha Terindah dan Terbesar Di Dunia."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
+
+
+</LinearLayout>

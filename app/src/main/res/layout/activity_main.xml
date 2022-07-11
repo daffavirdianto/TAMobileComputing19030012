@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ICON CITY"
+            android:textColor="#000"
+            android:textSize="16pt" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="7pt"
+            android:text="Selamat datang di aplikasi Icon City. Pastikan anda memiliki akun untuk login. Jika anda belum memiliki akun untuk login anda dapat pengajuan akun terlebih dahulu. "/>
+
+        <Button
+            android:id="@+id/akunbutton"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:text="+Ajukan Akun" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:text="LOGIN" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
